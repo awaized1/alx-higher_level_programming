@@ -1,4 +1,3 @@
-#!/usr/bin/python3
-"""code prints alphabet in upper case"""
+#!/usr/bin/python
 import string
 print(string.ascii_uppercase)
