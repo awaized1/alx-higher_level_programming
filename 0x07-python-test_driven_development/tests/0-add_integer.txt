@@ -14,20 +14,20 @@ that value is equivalent to using the ``+`` operator.
 ::
 
     >>> add_integer = __import__('0-add_integer').add_integer
-    >>> add_integer(2, 3)
-    5
+    >>> add_integer(2, 4)
+    6
 
 ::
 
-    >>> add_integer(2, -3)
+    >>> add_integer(-2, 3)
     -1
 
 The function also works with floating-point values.
 
 ::
 
-    >>> add_integer(2.0, 3.0)
-    5
+    >>> add_integer(1.0, 3.0)
+    4
 
 Note that floats are casted to ints before addition is performed.
 
